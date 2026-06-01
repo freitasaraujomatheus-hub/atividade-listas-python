@@ -7,12 +7,10 @@ print("Listas iniciais:")
 print(f"Frutas: {frutas}")
 print(f"Numeros: {numeros}")
 
-
 primeira_fruta_sem_negativo = frutas[0]
 ultima_fruta_sem_negativo = frutas[len(frutas) - 1]
 print(f"Primeira fruta (sem índice negativo): {primeira_fruta_sem_negativo}")
 print(f"Última fruta (sem índice negativo): {ultima_fruta_sem_negativo}")
-
 
 primeira_fruta_com_negativo = frutas[0]
 ultima_fruta_com_negativo = frutas[-1]
